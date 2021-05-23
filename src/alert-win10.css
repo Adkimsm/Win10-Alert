@@ -1,0 +1,51 @@
+#greetingBox {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: calc(50% - 400px);
+    width: 800px;
+    z-index: 999;
+}
+
+#greeting {
+    position: relative;
+    top: -100px;
+    opacity: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #0067B3;
+    font-size: small;
+    transition: all .5s;
+    color: white;
+    box-shadow: rgba(0, 0, 0, .05) 0 10px 20px;
+    height: 10rem;
+}
+
+.al_h2 {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.al_text {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.al_btn {
+    float: right;
+    border: white solid;
+    width: 4.5rem;
+    height: 1.5rem;
+    background-color: #0076D7;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+.al_btn:hover {
+    background-color: #fff;
+    color: black;
+}
